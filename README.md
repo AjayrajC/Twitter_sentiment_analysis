@@ -4,9 +4,9 @@ This project performs sentiment analysis on comments using natural language proc
 
 # Features
 
-Data Cleaning: Removes special characters, hyperlinks, and usernames from tweets.
+Data Cleaning: Removes special characters, hyperlinks, and usernames from comments.
 
-Sentiment Analysis: TextBlob to classify tweets based on their sentiment.
+Sentiment Analysis: TextBlob to classify comments based on their sentiment.
 
 Machine Learning: Logistic Regression model with CountVectorizer for feature extraction.
 
@@ -15,7 +15,12 @@ Visualization: Displays the distribution of sentiments in the testing set using 
 # Prerequisites
 
 Python 3.x
+
 Pandas
+
 TextBlob
+
 Matplotlib
+
 scikit-learn
+
